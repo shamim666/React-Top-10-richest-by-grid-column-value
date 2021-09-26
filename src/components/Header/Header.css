@@ -1,0 +1,17 @@
+
+.rich-container{
+    text-align: center;
+}
+
+.rich-text{
+background-color: goldenrod;
+color: white;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.rich-logo{
+    width: 700px;
+    height: 250px;
+   
+}
