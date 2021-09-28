@@ -11,7 +11,7 @@ const Richman = (props) => {
 
     const element = <FontAwesomeIcon icon={faGlassMartiniAlt} />
     return (
-        <div className="col-md-4">
+        // <div className="col-md-4">
             
             <div className="card" >
                 <img className="card-img-top" src={img} alt={name} />
@@ -27,7 +27,7 @@ const Richman = (props) => {
 
                 </div>
             </div>
-     </div>
+    //  </div>
     );
 };
 

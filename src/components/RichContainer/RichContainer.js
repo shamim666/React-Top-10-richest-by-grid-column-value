@@ -30,22 +30,18 @@ else{
 
 
     return (
-        
-        <div className="row">
-        <div className="col-md-9">
-            <div className="row g-4">
-              
-                {richman.map(rich => <Richman rich={rich} key={rich.id} handleRichman = {handleRichman}></Richman>)}
-                
+       <div className="row row-cols-md-2">
+           <div className="col-md-9">
+           <div className="row row-cols-md-3">
+           {richman.map(rich => <Richman rich={rich} key={rich.id} handleRichman = {handleRichman}></Richman>)}
             </div>
-        </div>
-        <div className="col-md-3" >
-            
-            <Casino casino = {casino}></Casino>
-            
-        </div>
+          
+           </div>
+           <div className="col-md-3">
 
-    </div>
+           <Casino casino = {casino}></Casino>
+           </div>
+       </div>
     
     );
 };
