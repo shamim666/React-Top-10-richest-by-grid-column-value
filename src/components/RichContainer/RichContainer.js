@@ -31,21 +31,21 @@ else{
 
     return (
         
-            <div className="row">
-                <div className="col-md-9">
-                    <div className="row g-4">
-                      
-                        {richman.map(rich => <Richman rich={rich} key={rich.id} handleRichman = {handleRichman}></Richman>)}
-                        
-                    </div>
-                </div>
-                <div className="col-md-3" >
-                    
-                    <Casino casino = {casino}></Casino>
-                    
-                </div>
-
+        <div className="row">
+        <div className="col-md-9">
+            <div className="row g-4">
+              
+                {richman.map(rich => <Richman rich={rich} key={rich.id} handleRichman = {handleRichman}></Richman>)}
+                
             </div>
+        </div>
+        <div className="col-md-3" >
+            
+            <Casino casino = {casino}></Casino>
+            
+        </div>
+
+    </div>
     
     );
 };

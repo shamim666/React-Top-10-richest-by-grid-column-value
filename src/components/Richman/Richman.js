@@ -27,7 +27,7 @@ const Richman = (props) => {
 
                 </div>
             </div>
-        </div>
+     </div>
     );
 };
 
